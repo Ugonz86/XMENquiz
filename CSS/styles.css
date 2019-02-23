@@ -1,0 +1,8 @@
+.btn {
+  border-color: red;
+  border-style: groove: lightgray;
+}
+
+#result {
+  display: none;
+}

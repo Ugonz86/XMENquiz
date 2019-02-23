@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Xmen-quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to the XMEN Quiz!</h1>
+        <h3>Find out which mutant you are.</h3>
+        <br>
+        <form id="quiz">
+
+          <div class="form-group">
+            <label for="gender">What is your gender?</label>
+            <select class="form-control" id="gender">
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="nature">Select an option that best describes your nature.</label>
+            <select class="form-control" id="nature">
+              <option>Good</option>
+              <option>Evil</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="category">Select the category that best describes you.</label>
+            <select class="form-control" id="category">
+              <option>Alpha</option>
+              <option>Beta</option>
+              <option>Omega</option>
+            </select>
+          </div>
+          <br>
+          <button type="submit" class="btn">Find out</button>
+      </form>
+      <br>
+      <div id="result">
+        <p>You are <span id="mutant"></span>!</p>
+      </div>
+  </div>
+</body>
+</html>
