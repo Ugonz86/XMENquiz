@@ -6,51 +6,51 @@ $(document).ready(function() {
     var category = $("select#category").val();
 
     var result = '';
-    if (gender === 'Male' && nature === 'Good' && category === 'Alpha'){
+    if (gender === 'male' && nature === 'good' && category === 'alpha'){
       result = 'Cyclops';
     }
-    var result = '';
-    if (gender === 'Male' && nature === 'Evil' && category === 'Alpha'){
+
+    if (gender === 'male' && nature === 'evil' && category === 'alpha'){
       result = 'Magneto';
     }
-    var result = '';
-    if (gender === 'Female' && nature === 'Good' && category === 'Alpha'){
+
+    if (gender === 'female' && nature === 'good' && category === 'alpha'){
       result = 'Storm';
     }
-    var result = '';
-    if (gender === 'Female' && nature === 'Evil' && category === 'Alpha'){
+
+    if (gender === 'female' && nature === 'evil' && category === 'alpha'){
       result = 'Polaris';
     }
-    var result = '';
-    if (gender === 'Male' && nature === 'Good' && category === 'Beta'){
+
+    if (gender === 'male' && nature === 'good' && category === 'beta'){
       result = 'Colossus';
     }
-    var result = '';
-    if (gender === 'Male' && nature === 'Evil' && category === 'Beta'){
+
+    if (gender === 'male' && nature === 'evil' && category === 'beta'){
       result = 'Sabretooth';
     }
-    var result = '';
-    if (gender === 'Female' && nature === 'Good' && category === 'Beta'){
+
+    if (gender === 'female' && nature === 'good' && category === 'beta'){
       result = 'Dazzler';
     }
-    var result = '';
-    if (gender === 'Female' && nature === 'Evil' && category === 'Beta'){
+
+    if (gender === 'female' && nature === 'evil' && category === 'beta'){
       result = 'Lady Mastermind';
     }
-    var result = '';
-    if (gender === 'Male' && nature === 'Good' && category === 'Omega'){
+
+    if (gender === 'male' && nature === 'good' && category === 'omega'){
       result = 'Iceman';
     }
-    var result = '';
-    if (gender === 'Male' && nature === 'Evil' && category === 'Omega'){
+
+    if (gender === 'male' && nature === 'evil' && category === 'omega'){
       result = 'Vulcan';
     }
-    var result = '';
-    if (gender === 'Female' && nature === 'Good' && category === 'Omega'){
+
+    if (gender === 'female' && nature === 'good' && category === 'omega'){
       result = 'Jean Grey';
     }
-    var result = '';
-    if (gender === 'Female' && nature === 'Evil' && category === 'Omega'){
+    
+    if (gender === 'female' && nature === 'evil' && category === 'omega'){
       result = 'Dark Phoenix';
     }
 
